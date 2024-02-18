@@ -25,12 +25,12 @@ This project is part of a scrum team developing a data warehouse for Bloomberg t
 - Spring data test
 
 ## Getting Started
-1. Clone the repository:
+- Clone the repository:
    
    git clone https://github.com/<your_github_username>/<your_project_name>.git
    cd <your_project_name>
 
-2. Run the project:
+- Run the project:
    1- mvn clean install -DskipTests
    2- docker image build . -t fxdeals:v1
    3- docker-compose up
