@@ -32,7 +32,7 @@ This project is part of a scrum team developing a data warehouse for Bloomberg t
 
 2. Run the project:
    1- mvn clean install -DskipTests
-   2- docker image build . -t fxdeal:v1
+   2- docker image build . -t fxdeals:v1
    3- docker-compose up
 
 ## Documentation 
