@@ -25,15 +25,15 @@ This project is part of a scrum team developing a data warehouse for Bloomberg t
 - Spring data test
 
 ## Getting Started
-- Clone the repository:
-   
-   git clone https://github.com/<your_github_username>/<your_project_name>.git
-   cd <your_project_name>
+1. Clone the repository:
+   1. git clone https://github.com/Zaidizz96/Fx_Deals
+   2. cd Fx_Deals
 
-- Run the project:
-   1- mvn clean install -DskipTests
-   2- docker image build . -t fxdeals:v1
-   3- docker-compose up
+
+2. Run the project:
+   1. mvn clean install -DskipTests
+   2. docker image build . -t fxdeals:v1
+   3. docker-compose up
 
 ## Documentation 
 ### DealController
@@ -82,6 +82,3 @@ mvn test
 # For Gradle
 ./gradlew test
 ```
-
-
-
